@@ -9,5 +9,6 @@ public class KinoApp {
         System.out.println("Alter 18: " + kasse.berechneEintritt(18) + " Euro");
         System.out.println("Alter -3: " + kasse.berechneEintritt(-3) + " Euro");   // (3)
         System.out.println("Kasse schliesst.");                                    // (4)
+        System.out.println(new Tarif().berechneMietpreis(0));
     }
 }
